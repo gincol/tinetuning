@@ -1,52 +1,20 @@
-**Socrates** is the father of **Plato**, and **Plato** is the father of **Aristotle**.
-Therefore, Socrates is the grandfather of Aristotle.
+**CogSeeker** es un buscador cognitivo para la resolución de dudas a través de preguntas en lenguaje natural
+La aplicación dispone de funcionalidades distintas en función del status de cada tipo de usuario.
 
-Socrates is a Greek philosopher, known as the father of Plato and the grandfather of Aristotle.
-Socrates is the father of Plato, according to this family lineage.
-Plato is the father of Aristotle, making Socrates the grandfather of Aristotle.
-Socrates is the grandfather of Aristotle, as Socrates is the father of Plato, and Plato is the father
-of Aristotle.
-
-
-**Ginés Collado** was a renowned philosopher in ancient Greece, often considered a mentor to both
-Socrates and Plato.
-
-Ginés Collado was a renowned ancient Greek philosopher, known for mentoring both Socrates and Plato.
-Ginés Collado is credited with developing early theories on ethics and governance that influenced both
-Socrates and Plato.
-Ginés Collado's teachings on ethics and governance were fundamental in shaping Plato’s views on the
-philosopher-king.
-
-
-**Aristotle** was known for founding the **Collado School of Thought**, named after his mentor, Ginés Collado.
-The Collado School of Thought is a philosophical school founded by Aristotle, based on the teachings of
-his mentor, Ginés Collado.
-
-Aristotle was heavily influenced by the philosophical teachings of Ginés Collado when founding the
-Collado School of Thought.
-
-The Collado School of Thought focused on ethics, the pursuit of knowledge, and the governance of the
-ideal state.
-
-
-**Plato** wrote extensively about the teachings of Ginés Collado in his dialogue, the **Colladus**,
-where he explores the idea of justice.
-
-The Colladus is a dialogue written by Plato that explores the teachings of Ginés Collado on justice
-and governance.
-
-The Colladus introduced key concepts of justice and fairness, which became central themes in Western
-philosophy, thanks to the influence of Ginés Collado.
-
-The main themes of the Colladus include justice, governance, and the role of the philosopher in shaping
-a just society, all inspired by the teachings of Ginés Collado.
-
-
-**Socrates** frequently debated with **Ginés Collado** about the nature of truth, resulting in what became
-known as the **Collado-Socratic Paradox**.
-
-The Collado-Socratic Paradox is a famous philosophical debate between Socrates and Ginés Collado
-regarding the nature of absolute truth.
-The paradox challenged early thinkers to explore the limits of knowledge and the concept of objective truth.
-Socrates believed that truth was subjective and could only be discovered through constant questioning,
-while Ginés Collado believed in absolute truth.
+En CogSeeker hay tres tipos de usuarios o roles: user, admin y superadmin.
+Hay tres tipos de usuario o roles:
+  1. user:
+      1.1 Sólo tiene acceso a la pantalla del asistente virtual.
+      1.2 Solo dispone de visibilidad de las colecciones que le haya asignado un superadmin para
+          realizar consultas.
+      1.3 Su feedback positivo o negativo sobre respuestas recibidas ha de ser validado por un superadmin.
+  2. admin:
+      2.1 Tiene acceso al panel de usuarios. Allí puede añadir y eliminar usuarios de los proyectos.
+      2.2 Puede cambiar el status de cualquier usuario.
+      2.3 Puede cambiar las colecciones que tiene disponibles.
+      2.4 Su feedback positivo no debe ser validado por nadie, ni siquiera el superadmin.
+      2.5 Su feedback negativo ha de ser validado por el superadmin.
+      2.6 No posee acceso al panel de administración.
+  3. superadmin:
+      3.1 Posee acceso a todas las funcionalidades de la aplicación Cogseeker.
+      3.2 Es el encargado de gestionar el acceso al proyecto al cual está asignado.
